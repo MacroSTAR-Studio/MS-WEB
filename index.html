@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>宏星工作室官方网站</title>
+	<link rel="stylesheet" href="template">
+	<style>
+        .my-button {
+            background-color: #0e60ca;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .my-button:hover {
+            background-color: #0e60ca;
+        }
+        header {
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            background-color: black;
+            color: white;
+        }
+        header span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: headerScroll 20s linear infinite;
+        }
+        @keyframes headerScroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 64px; /* 将高度缩窄至150px */
+        }
+        footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="bg-img"></div>
+    <header><span>宏星工作室欢迎您的到来！</span></header>
+    <main>
+        <div class="centered">
+            <h1>宏星工作室 | 重新出发，向新前进</h1>
+        </div>
+        <p>宏星工作室欢迎👏您的到来</p>
+        <p>宏星工作室致力于打造好玩、实用的产品，敬请期待！</p>
+    </main>
+    <footer>
+        <p>© 2024 宏星工作室 保留所有权利</p>
+      </footer>
+    
+</body>
+</html>
